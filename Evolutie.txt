@@ -1,0 +1,197 @@
+INPUTS
+------------------------------------
+Population size: 20
+Domain: [-2, 2.3]
+Precision: 6
+Crossover probability: 0.25
+Mutation probability: 0.01
+Number of generations: 50
+Bits per individual: 23
+
+INITIAL POPULATION (Generation 0)
+Ind 1: Bits=11011010001101100101100, X=1.665285, f(X)=10.732772
+Ind 2: Bits=10001111110010000101001, X=0.415097, f(X)=5.489727
+Ind 3: Bits=01111011101101100000000, X=0.077957, f(X)=4.180187
+Ind 4: Bits=11110000001000000000001, X=2.033351, f(X)=7.510548
+Ind 5: Bits=11110100110001000110000, X=2.111323, f(X)=6.182437
+Ind 6: Bits=11111001000001101010100, X=2.182859, f(X)=4.721191
+Ind 7: Bits=10110100100000111110100, X=1.032093, f(X)=9.190362
+Ind 8: Bits=01011100111011010001011, X=-0.439131, f(X)=3.855897
+Ind 9: Bits=10110100010010010011011, X=1.028241, f(X)=9.167763
+Ind 10: Bits=00100101111001001100110, X=-1.363504, f(X)=5.253152
+Ind 11: Bits=11011100111010011001111, X=1.710641, f(X)=10.563263
+Ind 12: Bits=10111110101101110000100, X=1.203416, f(X)=10.102359
+Ind 13: Bits=00011101101101111101010, X=-1.500829, f(X)=4.934592
+Ind 14: Bits=00001101100110010011011, X=-1.771588, f(X)=3.160587
+Ind 15: Bits=01100110011011010000011, X=-0.279565, f(X)=3.747388
+Ind 16: Bits=10000011000010100000001, X=0.201048, f(X)=4.562142
+Ind 17: Bits=00000001101011100101000, X=-1.971766, f(X)=0.492448
+Ind 18: Bits=10110111111111001000000, X=1.090396, f(X)=9.523010
+Ind 19: Bits=10101001011010101100000, X=0.845676, f(X)=8.040561
+Ind 20: Bits=00001111000101011101001, X=-1.746615, f(X)=3.402874
+
+---- DETAILED SELECTION PROCESS (GEN 1) ----
+Ind 1: p=0.085991, q=0.085991
+Ind 2: p=0.043984, q=0.129974
+Ind 3: p=0.033492, q=0.163466
+Ind 4: p=0.060174, q=0.223640
+Ind 5: p=0.049533, q=0.273173
+Ind 6: p=0.037826, q=0.311000
+Ind 7: p=0.073633, q=0.384632
+Ind 8: p=0.030893, q=0.415526
+Ind 9: p=0.073452, q=0.488978
+Ind 10: p=0.042088, q=0.531066
+Ind 11: p=0.084633, q=0.615698
+Ind 12: p=0.080940, q=0.696638
+Ind 13: p=0.039536, q=0.736174
+Ind 14: p=0.025323, q=0.761496
+Ind 15: p=0.030024, q=0.791520
+Ind 16: p=0.036552, q=0.828072
+Ind 17: p=0.003945, q=0.832017
+Ind 18: p=0.076298, q=0.908316
+Ind 19: p=0.064421, q=0.972736
+Ind 20: p=0.027264, q=1.000000
+u=0.943567 -> interval of Ind 19
+u=0.613171 -> interval of Ind 11
+u=0.592569 -> interval of Ind 11
+u=0.247849 -> interval of Ind 5
+u=0.733612 -> interval of Ind 13
+u=0.567493 -> interval of Ind 11
+u=0.864148 -> interval of Ind 18
+u=0.295328 -> interval of Ind 6
+u=0.484129 -> interval of Ind 9
+u=0.686177 -> interval of Ind 12
+u=0.830944 -> interval of Ind 17
+u=0.425102 -> interval of Ind 9
+u=0.903459 -> interval of Ind 18
+u=0.672576 -> interval of Ind 12
+u=0.839292 -> interval of Ind 18
+u=0.034612 -> interval of Ind 1
+u=0.472459 -> interval of Ind 9
+u=0.361444 -> interval of Ind 7
+u=0.267547 -> interval of Ind 5
+u=0.736202 -> interval of Ind 14
+Ind 1 does NOT enter mating pool
+Ind 2 does NOT enter mating pool
+Ind 3 does NOT enter mating pool
+Ind 4 enters mating pool
+Ind 5 does NOT enter mating pool
+Ind 6 does NOT enter mating pool
+Ind 7 enters mating pool
+Ind 8 does NOT enter mating pool
+Ind 9 enters mating pool
+Ind 10 enters mating pool
+Ind 11 enters mating pool
+Ind 12 does NOT enter mating pool
+Ind 13 enters mating pool
+Ind 14 does NOT enter mating pool
+Ind 15 enters mating pool
+Ind 16 does NOT enter mating pool
+Ind 17 does NOT enter mating pool
+Ind 18 does NOT enter mating pool
+Ind 19 does NOT enter mating pool
+Ind 20 does NOT enter mating pool
+Mating pool size: 7
+  Pair (cut=3): 101101111111110010000   00 x 10110111111111001000000 -> 10110111111111001000000, 10110111111111001000000
+  Pair (cut=5): 10111110101101110000100 x 10110100010010010011011 -> 10111100010010010011011, 10110110101101110000100
+  Pair (cut=11): 10110111111111001000000 x 00000001101011100101000 -> 10110111111011100101000, 00000001101111001000000
+  Unpaired chrom: 11110100110001000110000
+
+Population AFTER CROSSOVER (Gen 1):
+  Ind 1: 10101001011010101100000
+  Ind 2: 11011100111010011001111
+  Ind 3: 11011100111010011001111
+  Ind 4: 00011101101101111101010
+  Ind 5: 11011100111010011001111
+  Ind 6: 11111001000001101010100
+  Ind 7: 10110100010010010011011
+  Ind 8: 10111110101101110000100
+  Ind 9: 11011010001101100101100
+  Ind 10: 10110100010010010011011
+  Ind 11: 10110100100000111110100
+  Ind 12: 11110100110001000110000
+  Ind 13: 00001101100110010011011
+  Ind 14: 10110111111111001000000
+  Ind 15: 10110111111111001000000
+  Ind 16: 10111100010010010011011
+  Ind 17: 10110110101101110000100
+  Ind 18: 10110111111011100101000
+  Ind 19: 00000001101111001000000
+  Ind 20: 11110100110001000110000
+
+---- MUTATION PROCESS (GEN 1) ----
+
+Population AFTER MUTATION (Gen 1):
+  Ind 1: 10101001011010101100000
+  Ind 2: 11011100111010011001111
+  Ind 3: 11011100111010011001111
+  Ind 4: 00011101101101111101010
+  Ind 5: 11011100110010011001111
+  Ind 6: 11111001000001101010100
+  Ind 7: 10110100010010010011011
+  Ind 8: 10111110101101110000100
+  Ind 9: 11011010001101100101100
+  Ind 10: 10110100010010010011011
+  Ind 11: 10110100100000111110100
+  Ind 12: 11110100110001000110000
+  Ind 13: 00001101100110010011011
+  Ind 14: 10110111111111001000000
+  Ind 15: 10110111111111001000000
+  Ind 16: 10111100010010010011011
+  Ind 17: 10110100101101110000100
+  Ind 18: 10110111111011100101000
+  Ind 19: 00000001101111001000000
+  Ind 20: 11110100110001000110000
+
+--- END OF GEN 1 (DETAILED) ---
+Best X = 1.665285, Max fitness = 10.732772, Mean fitness = 8.584660
+
+Gen 2: Best X = 1.665285, Max fitness = 10.732772, Mean fitness = 8.298756
+Gen 3: Best X = 1.665285, Max fitness = 10.732772, Mean fitness = 8.586347
+Gen 4: Best X = 1.665285, Max fitness = 10.732772, Mean fitness = 8.593878
+Gen 5: Best X = 1.665285, Max fitness = 10.732772, Mean fitness = 8.593650
+Gen 6: Best X = 1.665285, Max fitness = 10.732772, Mean fitness = 8.701051
+Gen 7: Best X = 1.665285, Max fitness = 10.732772, Mean fitness = 8.561660
+Gen 8: Best X = 1.665285, Max fitness = 10.732772, Mean fitness = 8.692044
+Gen 9: Best X = 1.665154, Max fitness = 10.733185, Mean fitness = 8.434103
+Gen 10: Best X = 1.441891, Max fitness = 10.877533, Mean fitness = 8.409039
+Gen 11: Best X = 1.441891, Max fitness = 10.877533, Mean fitness = 8.436413
+Gen 12: Best X = 1.441891, Max fitness = 10.877533, Mean fitness = 8.600749
+Gen 13: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.805522
+Gen 14: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.581788
+Gen 15: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.425077
+Gen 16: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.832697
+Gen 17: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.637020
+Gen 18: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.863097
+Gen 19: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.895991
+Gen 20: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.392791
+Gen 21: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.603474
+Gen 22: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.528049
+Gen 23: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.601869
+Gen 24: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.607166
+Gen 25: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.427003
+Gen 26: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.611046
+Gen 27: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.887626
+Gen 28: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.436535
+Gen 29: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.606470
+Gen 30: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.602661
+Gen 31: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.602151
+Gen 32: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.754942
+Gen 33: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.583795
+Gen 34: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.563693
+Gen 35: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.847967
+Gen 36: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.559102
+Gen 37: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.564458
+Gen 38: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.840268
+Gen 39: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.572084
+Gen 40: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.017888
+Gen 41: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.405314
+Gen 42: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.611431
+Gen 43: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.602653
+Gen 44: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.603209
+Gen 45: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.603331
+Gen 46: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.838175
+Gen 47: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.639937
+Gen 48: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.630549
+Gen 49: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.391110
+Gen 50: Best X = 1.573823, Max fitness = 10.920195, Mean fitness = 8.604046
